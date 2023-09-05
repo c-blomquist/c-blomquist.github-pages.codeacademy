@@ -1,0 +1,85 @@
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+
+}
+
+h2{
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+/* side 1 */
+.side-1{
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.side-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.side-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.side-1 a{
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+/* side 2 */
+.side-2{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.side-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.side-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.side-2 a{
+    font-size: 1.1rem;
+    padding-bottom: 0;
+    width: 100px;
+}
+
+
+/* animations / utilities */
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
