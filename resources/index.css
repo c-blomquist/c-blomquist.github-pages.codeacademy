@@ -16,10 +16,7 @@ h2{
     color: #000;
 }
 
-a{
-    text-decoration: none;
-}
-/* side 1 */
+/*side 1*/
 .side-1{
     padding-top: 40vh;
     text-align: center;
@@ -41,7 +38,7 @@ a{
     padding: 10px;
 }
 
-/* side 2 */
+/*side 2*/
 .side-2{
     padding-top: 10vh;
     width: 70%;
@@ -65,21 +62,17 @@ a{
 }
 
 
-/* animations / utilities */
-.section-2 a:hover{
+/*animations/utilities*/
+.side-2 a:hover{
     font-size: 1.3rem;
-    color: #fff;
+    color: #00F;
     cursor: pointer;
     transition: 0.2s;
 }
 
-.section-1 a:hover{
-    color: #fff;
+.side-1 a:hover{
+    font-size: 1.3rem;
+    color: #00F;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.white:hover{
-    position: relative;
-    padding-left: 10px;
 }
